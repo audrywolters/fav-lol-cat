@@ -1,10 +1,12 @@
-
+import AllCats from "./components/AllCats"
+import FavCats from "./components/FavCats"
 
 const App = () => {
 
   return (
     <>
-      hi there
+      <AllCats/>
+      <FavCats/>
     </>
   )
 }
