@@ -3,7 +3,7 @@ import CatPic from '../components/CatPic'
 
 import Bike from '../images/bike.jpg'
 import Chess from '../images/chess.jpg'
-import CornCob from '../images/corncob.jpg'
+import Corn from '../images/corncob.jpg'
 import Football from '../images/football.jpg'
 import Revolving from '../images/revolvingDoor.jpg'
 import Roller from '../images/rollerCoaster.jpg'
@@ -19,7 +19,7 @@ class MyProvider extends Component {
 		catPics: [
 			<CatPic source={Bike} />,
 			<CatPic source={Chess} />,
-			<CatPic source={CornCob} />,
+			<CatPic source={Corn} />,
 			<CatPic source={Football} />,
 			<CatPic source={Revolving} />,
 			<CatPic source={Roller} />,
@@ -28,6 +28,11 @@ class MyProvider extends Component {
 			<CatPic source={Window} />
 			]
 	}
+
+	setFavorite = () => {
+		
+	}
+
 
 	render() {
 		return (
